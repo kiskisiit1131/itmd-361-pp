@@ -27,18 +27,18 @@ ems:
 
       html {
         font-size: 1.125em; /* this is 18 px (context) */
-        padding: 0.75em 0.916em    /* 12 / 18 = 0.667em  6 / 18 = 0.333em */
+        padding: 0.667 0.333em    /* 12 / 18 = 0.667em  6 / 18 = 0.333em */
       }
 
 4. Consider the following CSS. Assuming a browser with its base size at 1em = 16px, how big is h2,
 in pixels?
 
       html {
-        font-size: 1.125em;
+        font-size: 1.125em; /* 18 px */
       }
       figure {
-        font-size: 0.888em;
+        font-size: 0.888em;  /* 14.208px */
       }
       figure h2 {
-        font-size: 1.4375em;  /**/
+        font-size: 1.4375em;  /* 23px */
       }
