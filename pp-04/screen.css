@@ -13,22 +13,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
     font-size: 1.063em; /* 17px */
-    line-height:1.294px;   /* 22px (22/17)= 1.294em*/
+    line-height:1.294em;   /* 22px (22/17)= 1.294em*/
     padding: 0.88235em 0.70588em; /* 15px TB 12px LR */
     } 
     
  h1 {
-    font-size: 1.294em; /* 22px */
-    line-height: 1.818182em; /* 40 / 22 = 1.818182em */
+    font-size: 1.68em; /* 28.56px */
+    line-height: 1.0504em; /* 30 / 28.56 = 1.0504em */
  }
  
  p, ul {
-   padding-bottom: 0.705882em; /* 12px */
+   padding-bottom: 0.6470588em; /* 11px */
  }
  
  li {
    padding-left: 1.470588em; /* 25px */
-   padding-bottom: 0.470588em; /* 8px */
+   padding-bottom: 0.6470588em; /* 11px */
  }
  
  p:last-child {
