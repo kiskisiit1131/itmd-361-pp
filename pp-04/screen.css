@@ -8,3 +8,31 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* ===== BASE STYLES ===== */
+
+/* decided to use minor-second for a mobile scale, hopefully I mathed it right */
+
+html {
+    font-size: 1.063em; /* 17px */
+    line-height:1.294px;   /* 22px (22/17)= 1.294em*/
+    padding: 0.88235em 0.70588em; /* 15px TB 12px LR */
+    } 
+    
+ h1 {
+    font-size: 1.294em; /* 22px */
+    line-height: 1.818182em; /* 40 / 22 = 1.818182em */
+ }
+ 
+ p, ul {
+   padding-bottom: 0.705882em; /* 12px */
+ }
+ 
+ li {
+   padding-left: 1.470588em; /* 25px */
+   padding-bottom: 0.470588em; /* 8px */
+ }
+ 
+ p:last-child {
+  padding-bottom: 0;
+}
+
+ 
