@@ -28,13 +28,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 #content {
+  display: flex;
+  flex-direction: column-reverse;
 
 }
 
 #three,
 #two,
 #one {
-
+    height: 50vw;
+    width: 100vw;
 }
 
 #three {
@@ -50,9 +53,45 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 600px) {
+  #content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+  
+#three {
+  order:3;
+  width: 100vw;
+  height 20vw;
+}
+
+#two {
+  order: 2;
+  width: 50vw;
+  height: 20vw;
 
 }
 
+#one {
+  order:1;
+  width: 50vw;
+  height: 20vw;
+
+}
+}
+
 @media screen and (min-width: 800px) {
+    #content{
+  display: flex;
+  flex-direction: column-reverse;
+  }
+  
+#three,
+#two,
+#one {
+  order: 1;
+    height: 55vw;
+    width: 100vw;
+}
 
 }
