@@ -1,8 +1,13 @@
+
+
+$.noConflict();
+
+(function($){
 $(document).ready(
   function() {
     $('html').removeClass('nojs');
     $('html').addClass('hasjs');
-
+ 
     if (typeof(window.$) !== "undefined") {
       console.log('jQuery still controls the $ variable');
     } else {
@@ -11,4 +16,4 @@ $(document).ready(
 
   }
 );
-
+})(jQuery);
